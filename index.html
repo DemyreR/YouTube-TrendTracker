@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube TrendTracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #313131;
+        }
+        header {
+            background-color: #f30707;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #bb0404;
+            padding: 25px;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            background-color: #ddd;
+            width: 50%;
+            margin: auto;
+            border: 20px solid #ddd;
+            border-radius: 20px;
+            margin-top: 40px;
+        }
+        .container2 {
+            background-color: #ddd;
+            width: 50%;
+            margin: auto;
+            border: 20px solid #ddd;
+            border-radius: 20px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        h2 {
+            text-align: center;
+        }
+        p{
+            font-size: 20px;
+            text-align: center;
+            padding: auto;
+            letter-spacing: 1px;
+            line-height: 34px;
+        }
+        button {
+            display: block;
+            margin: auto;
+            width: 50%;
+            padding: 10px;
+            font-size: 14px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>YouTube TrendTracker</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="topTen.php">Current Top 10</a>
+        <a href="videoTypes.php">Current Trends</a>
+        <a href="dailyChange.php">Daily Change</a>
+        <a href="predictTrends.php">Predicted Change</a>
+        <a href="popularTags.php">Popular Tags</a>
+    </nav>
+    <!-- Your content goes here -->
+    <div class="container">
+        <h2>About The Site</h2>
+        <p>This website is a valuable resource for YouTube content creators, providing assistance in navigating the dynamic landscape of daily trends. 
+           Our platform gathers daily data and statistics directly from YouTube, loading information from the top 200 videos into a comprehensive database to then be analyzed.
+           Whether you're a seasoned creator or just starting, our platform offers insights into the most utilized tags, helping you optimize your content strategy.
+           Stay informed about the current top 10 videos, explore the spread of various video types, track daily changes, view tomorrow's predictions, and discover popular tags that resonate with your audience.</p>
+    </div>
+    <div class="container">
+        <h2>How To Use The Site</h2>
+        <p>This website is designed with user-friendliness in mind, ensuring a seamless experience for content creators. 
+           To get started, simply navigate through the intuitive menu located at the top of the page. 
+           The "Home" link takes you to this page, providing a quick overview of the site's features. 
+           Explore "Current Top 10" to discover currently trending videos, "Current Trends" for insights into popular video types, 
+           "Daily Change" to stay informed about daily shifts in trending video types, and "Predicted Change" to see the predicted shifts in said types.
+           Additionally, use "Popular Tags" to identify tags that a currently resonating with audiences.
+           Enjoy the ease of use and make the most of the valuable insights provided to elevate your YouTube content.</p>
+    </div>
+    <div class="container2">
+        <h2>Download CSV For Current Data</h2>
+        <p>Click the button below to download the CSV file.</p>
+        <a href="downloadCSV.php" download="trendingcurrent.csv">
+            <button>Download CSV</button>
+        </a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+    "require": {
+        "erusev/parsedown": "^1.7",
+        "components/jquery": "2.*",
+        "php-ai/php-ml": "^0.9.0"
+    }
+}
